@@ -45,5 +45,11 @@ Using KMeans clustering, the viewer base was divided into segments to better und
     pip install -r requirements.txt
     ```
 
-3.  **Run the Notebook:**
+3.  **Configure Environment Variables:**
+    The project uses `python-dotenv` to manage secure credentials. Create a file named `.env` in the root directory and add your OpenAI API key:
+    ```env
+    OPENAI_API_KEY=your_actual_api_key_here
+    ```
+    
+4.  **Run the Notebook:**
     Launch Jupyter Lab or Notebook and open `viewer_churn.ipynb`.
